@@ -1,2 +1,5 @@
 # Atmzr
- Talk buttons for toddlers learning to talk
+Break sentences down to their component parts
+
+## Free Alternative and Augmentative Communication Device
+## Free AAC Device
