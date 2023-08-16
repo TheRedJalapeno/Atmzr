@@ -111,8 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('buttonContainer');
 
   groups.forEach(group => {
-      const groupDiv = document.createElement('div');
-      groupDiv.className = 'group';
+      const groupDiv = document.createElement('div');  
+      const groupNameClass = group.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      groupDiv.className = `group ${groupNameClass}`;
 
       group.words.forEach(obj => {
           const button = document.createElement('button');

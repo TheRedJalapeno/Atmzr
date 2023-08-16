@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem; /* Spacing between group circles */
+  gap: 1rem; /* Spacing between group circles */
 }
 
 /* Styles for the group container */
@@ -16,7 +16,7 @@ body {
   justify-content: space-between; /* Distributes items evenly */
   align-items: center; /* Centers items vertically */
   flex-wrap: wrap; /* Allows items to wrap to next line if they don't fit */
-  margin-bottom: 20px; /* Space between groups */
+  margin-bottom: 5px; /* Space between groups */
   border-radius: 50px; /* Makes the group container a circle */
   background-color: rgba(255, 192, 203, 0.3); /* Pastel pink background */
   padding: 40px 20px 20px;
@@ -52,10 +52,30 @@ body {
   z-index: 1; /* Makes sure the name appears on top */
 }
 
+div.people {
+  background-color: rgba(255, 192, 203, 0.3);
+}
+div.feelings {
+  background-color: rgba(182, 253, 244, 0.3);
+}
+div.activities {
+  background-color: rgb(210 192 255 / 30%);
+}
+div.verbs {
+  background-color: rgba(255, 189, 230, 0.3);
+}
+div.connections {
+  background-color: rgba(190, 190, 190, 0.3);
+}
+
+
 button:hover {
   transform: scale(1.1); /* Scale up button on hover for a nice effect */
 }
 
 button span {
   font-size: 1.2em;
+  color: darkslategray;
+  font-weight: 600;
+  text-decoration: none;
 }
