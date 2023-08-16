@@ -11,51 +11,51 @@ const groups = [
   {
       name: "People",
       words: [
-          { word: 'Giddy', sound: 'sounds/giddy.mp3', image: 'images/giddy.PNG' },
-          { word: 'Mommy', sound: 'sounds/mommy.mp3', image: 'images/mommy.PNG' },
-          { word: 'Daddy', sound: 'sounds/daddy.mp3', image: 'images/daddy.PNG' },
-          { word: 'Toobie', sound: 'sounds/toobie.mp3', image: 'images/toobie.PNG' },
-          { word: 'Grandma', sound: 'sounds/grandma.mp3', image: 'images/grandma.PNG' },
+          { word: 'Giddy', sound: 'sounds/giddy.mp3', image: 'images/img_giddy.png' },
+          { word: 'Mommy', sound: 'sounds/mommy.mp3', image: 'images/img_mommy.png' },
+          { word: 'Daddy', sound: 'sounds/daddy.mp3', image: 'images/img_daddy.png' },
+          { word: 'Toobie', sound: 'sounds/toobie.mp3', image: 'images/img_toobie.png' },
+          { word: 'Grandma', sound: 'sounds/grandma.mp3', image: 'images/img_grandma.png' },
       ]
   },
   {
     name: "Feelings",
     words: [
-        { word: 'Happy', sound: 'sounds/happy.mp3', image: 'images/happy.PNG' },
-        { word: 'Mad', sound: 'sounds/mad.mp3', image: 'images/mad.PNG' },
-        { word: 'Hungry', sound: 'sounds/hungry.mp3', image: 'images/hungry.PNG' },
-        { word: 'Sleepy', sound: 'sounds/sleepy.mp3', image: 'images/sleepy.PNG' },
-        { word: 'Sad', sound: 'sounds/sad.mp3', image: 'images/sad.PNG' },
+        { word: 'Happy', sound: 'sounds/happy.mp3', image: 'images/img_happy.png' },
+        { word: 'Mad', sound: 'sounds/mad.mp3', image: 'images/img_mad.png' },
+        { word: 'Hungry', sound: 'sounds/hungry.mp3', image: 'images/img_hungry.png' },
+        { word: 'Sleepy', sound: 'sounds/sleepy.mp3', image: 'images/img_sleepy.png' },
+        { word: 'Sad', sound: 'sounds/sad.mp3', image: 'images/img_sad.png' },
     ]
   },
   {
     name: "Activities",
     words: [
-        { word: 'Food', sound: 'sounds/food.mp3', image: 'images/food.PNG' },
-        { word: 'Crayons', sound: 'sounds/crayons.mp3', image: 'images/crayons.PNG' },
-        { word: 'Music', sound: 'sounds/music.mp3', image: 'images/music.PNG' },
-        { word: 'Outside', sound: 'sounds/outside.mp3', image: 'images/outside.PNG' },
-        { word: 'Bath', sound: 'sounds/bath.mp3', image: 'images/bath.PNG' },
+        { word: 'Food', sound: 'sounds/food.mp3', image: 'images/img_food.png' },
+        { word: 'Crayons', sound: 'sounds/crayons.mp3', image: 'images/img_crayons.png' },
+        { word: 'Music', sound: 'sounds/music.mp3', image: 'images/img_music.png' },
+        { word: 'Outside', sound: 'sounds/outside.mp3', image: 'images/img_outside.png' },
+        { word: 'Bath', sound: 'sounds/bath.mp3', image: 'images/img_bath.png' },
     ]
   },
   {
     name: "Verbs",
     words: [
-        { word: 'Want', sound: 'sounds/want.mp3', image: 'images/want.PNG' },
-        { word: 'Hugs', sound: 'sounds/hugs.mp3', image: 'images/hugs.PNG' },
-        { word: 'Listen', sound: 'sounds/listen.mp3', image: 'images/listen.PNG' },
-        { word: 'Help', sound: 'sounds/help.mp3', image: 'images/help.PNG' },
-        { word: 'Love You', sound: 'sounds/loveyou.mp3', image: 'images/loveyou.PNG' },
+        { word: 'Want', sound: 'sounds/want.mp3', image: 'images/img_want.png' },
+        { word: 'Hugs', sound: 'sounds/hugs.mp3', image: 'images/img_hugs.png' },
+        { word: 'Listen', sound: 'sounds/listen.mp3', image: 'images/img_listen.png' },
+        { word: 'Help', sound: 'sounds/help.mp3', image: 'images/img_help.png' },
+        { word: 'Love You', sound: 'sounds/loveyou.mp3', image: 'images/img_loveyou.png' },
     ]
   },
   {
     name: "Connections",
     words: [
-        { word: 'Yes', sound: 'sounds/yes.mp3', image: 'images/yes.PNG' },
-        { word: 'No', sound: 'sounds/no.mp3', image: 'images/no.PNG' },
-        { word: 'Hm?', sound: 'sounds/hm.mp3', image: 'images/hm.PNG' },
-        { word: "Where's", sound: 'sounds/where.mp3', image: 'images/where.PNG' },
-        { word: 'why?', sound: 'sounds/why.mp3', image: 'images/why.PNG' },
+        { word: 'Yes', sound: 'sounds/yes.mp3', image: 'images/img_yes.png' },
+        { word: 'No', sound: 'sounds/no.mp3', image: 'images/img_no.png' },
+        { word: 'Hm?', sound: 'sounds/hm.mp3', image: 'images/img_hm.png' },
+        { word: "Where's", sound: 'sounds/where.mp3', image: 'images/img_where.png' },
+        { word: 'why?', sound: 'sounds/why.mp3', image: 'images/img_why.png' },
     ]
   },
 ];
