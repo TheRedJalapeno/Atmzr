@@ -1,0 +1,61 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f6f6f6;
+}
+
+#buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Spacing between group circles */
+}
+
+/* Styles for the group container */
+.group {
+  display: flex;
+  justify-content: space-between; /* Distributes items evenly */
+  align-items: center; /* Centers items vertically */
+  flex-wrap: wrap; /* Allows items to wrap to next line if they don't fit */
+  margin-bottom: 20px; /* Space between groups */
+  border-radius: 50px; /* Makes the group container a circle */
+  background-color: rgba(255, 192, 203, 0.3); /* Pastel pink background */
+  padding: 40px 20px 20px;
+  position: relative;
+}
+
+/* Styles for individual words within the group */
+.group button {
+  width: 8em; /* The width of each word, assuming 5 words per row */
+  display: flex;
+  flex-direction: column; /* Stacks image above the word */
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  border-radius: 50%; /* Makes the button circular */
+  margin: 5px; /* Small space around each word */
+  border: none; /* Removes the default button border */
+  background-color: white; /* Light blue background color for word buttons */
+}
+
+.group button img {
+  margin: auto;
+  margin-top: 10px; /* Space between image and word */
+  max-width: 50px;
+  height: 50px;
+  width: auto;
+}
+
+.group h2 {
+  position: absolute; /* Position the group name in the center of the circle */
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering trick */
+  z-index: 1; /* Makes sure the name appears on top */
+}
+
+button:hover {
+  transform: scale(1.1); /* Scale up button on hover for a nice effect */
+}
+
+button span {
+  font-size: 1.2em;
+}
